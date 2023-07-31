@@ -37,3 +37,8 @@ config = ""
 name = "bash"
 auto-format = true
 indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "json"
+auto-format = true
+indent = { tab-width = 2, unit = "\t" }
