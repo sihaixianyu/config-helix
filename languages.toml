@@ -24,21 +24,27 @@ indent = { tab-width = 4, unit = "\t" }
 # Python
 [[language]]
 name = "python"
-auto-format = true
-indent = { tab-width = 4, unit = "\t" }
-
 roots = ["pyproject.toml", "setup.py", "Poetry.lock", ".git"]
-formatter = {command = 'black', args = ["--quiet", "-"]}
 language-server = { command = "pyright-langserver", args = ["--stdio"] }
+auto-format = true
+formatter = { command = 'black', args = ["--quiet", "-"] }
 config = ""
 
 # Bash
 [[language]]
 name = "bash"
+file-types = ["sh", "zsh", "zshrc", "zshenv", "zpreztorc"]
 auto-format = true
 indent = { tab-width = 4, unit = "\t" }
 
+# JSON
 [[language]]
 name = "json"
 auto-format = true
 indent = { tab-width = 2, unit = "\t" }
+
+# TOML
+[[language]]
+name = "toml"
+auto-format = true
+indent = { tab-width = 4, unit = "\t" }
