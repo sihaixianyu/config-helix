@@ -1,4 +1,4 @@
-# C and C++
+# C++
 [[language]]
 name = "cpp"
 auto-format = true
@@ -15,23 +15,22 @@ name = "go"
 auto-format = true
 indent = { tab-width = 4, unit = "\t" }
 
+# Python
+[[language]]
+name = "python"
+auto-format = true
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "black", args = ["-q", "-"] }
+
 # Rust
 [[language]]
 name = "rust"
 auto-format = true
 indent = { tab-width = 4, unit = "\t" }
 
-# Python
-[[language]]
-name = "python"
-auto-format = true
-formatter = { command = 'black', args = ["--quiet", "-"] }
-roots = ["pyproject.toml", "setup.py", ".git"]
-
 # Bash
 [[language]]
 name = "bash"
-file-types = ["sh", "zsh", "zshrc", "zshenv", "zpreztorc"]
 auto-format = true
 indent = { tab-width = 4, unit = "\t" }
 
