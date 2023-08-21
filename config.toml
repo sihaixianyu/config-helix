@@ -13,6 +13,12 @@ gutters = ["line-numbers","diff", "diagnostics",  "spacer"]
 display-messages = true
 display-inlay-hints = true
 
+[editor.soft-wrap]
+enable = true
+
+[editor.file-picker]
+hidden = false
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
