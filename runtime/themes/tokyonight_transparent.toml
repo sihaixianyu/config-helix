@@ -1,0 +1,12 @@
+inherits = "tokyonight"
+"ui.background" = {}
+
+"function" = { fa = "blue" }
+"variable.parameter" = { fa = "yellow" }
+"keyword" = { fa = "cyan" }
+"keyword.function" = { fa = "magenta" }
+
+[palette]
+background = "#24283b"
+background_highlight = "#373d5a"
+background_menu = "#1f2335"
