@@ -25,9 +25,26 @@ normal = "block"
 select = "underline"
 
 [editor.statusline]
-left = ["mode", "spinner", "version-control"]
-center = ["file-name"]
-right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+left = [
+	"mode",
+	"spacer",
+	"version-control",
+	"spacer",
+	"separator",
+	"file-name",
+	"file-modification-indicator",
+]
+right = [
+	"spinner",
+	"separator",
+	"spacer",
+	"diagnostics",
+	"position",
+	"position-percentage",
+	"file-encoding",
+	"file-line-ending",
+	"file-type"
+]
 separator = "│"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
