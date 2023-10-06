@@ -14,6 +14,9 @@ gutters = ["line-numbers","diff", "diagnostics",  "spacer"]
 display-messages = true
 display-inlay-hints = true
 
+[editor.search]
+smart-case = true
+
 [editor.soft-wrap]
 enable = true
 
