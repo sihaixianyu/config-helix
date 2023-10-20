@@ -12,7 +12,7 @@ indent = { tab-width = 4, unit = "    " }
 # Go
 [[language]]
 name = "go"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 # Python
@@ -22,10 +22,15 @@ auto-format = false
 indent = { tab-width = 4, unit = "    " }
 formatter = { command = "black", args = ["-q", "-"] }
 
+[language.config.pylsp.plugins]
+mccabe = { threshold = 20 }
+ruff = { enabled = true, extendSelect = ["I"] }
+mypy = { enabled = true, live_mode = true, strict = true }
+
 # Rust
 [[language]]
 name = "rust"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [language-server.rust-analyzer.config]
