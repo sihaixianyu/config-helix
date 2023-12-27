@@ -41,7 +41,6 @@ inlayHints.lifetimeElisionHints.enable = false
 # Bash
 [[language]]
 name = "bash"
-file-types = ["sh"]
 auto-format = false
 indent = { tab-width = 4, unit = "    " }
 
