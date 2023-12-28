@@ -22,15 +22,12 @@ roots = ["pyproject.toml", "pyrightconfig.json", "Poetry.lock"]
 auto-format = false
 indent = { tab-width = 4, unit = "    " }
 formatter = { command = "black", args = ["-", "--quiet", "--line-length=120"] }
-language-servers = ["pyright", "ruff-lsp"]
+language-servers = ["pyright"]
 
 [language-server.pyright]
 command = "pyright-langserver"
 args = ["--stdio"]
 config = []
-
-[language-server.ruff-lsp]
-command = "ruff-lsp"
 
 # Rust
 [[language]]
