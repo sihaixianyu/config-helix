@@ -8,7 +8,7 @@ cursorline = true
 true-color = true
 color-modes = true
 bufferline = "multiple"
-gutters = ["line-numbers","diff", "diagnostics",  "spacer"]
+gutters = ["line-numbers", "diff", "diagnostics", "spacer"]
 
 [editor.lsp]
 display-messages = true
@@ -30,24 +30,24 @@ select = "underline"
 
 [editor.statusline]
 left = [
-	"mode",
-	"spacer",
-	"version-control",
-	"spacer",
-	"separator",
-	"file-name",
-	"file-modification-indicator",
+  "mode",
+  "spacer",
+  "version-control",
+  "spacer",
+  "separator",
+  "file-name",
+  "file-modification-indicator",
 ]
 right = [
-	"spinner",
-	"separator",
-	"spacer",
-	"diagnostics",
-	"position",
-	"position-percentage",
-	"file-encoding",
-	"file-line-ending",
-	"file-type"
+  "spinner",
+  "separator",
+  "spacer",
+  "diagnostics",
+  "position",
+  "position-percentage",
+  "file-encoding",
+  "file-line-ending",
+  "file-type",
 ]
 separator = "│"
 mode.normal = "NORMAL"
@@ -56,7 +56,7 @@ mode.select = "SELECT"
 
 # Keymap
 [keys.normal]
-g = { "left" = "goto_line_start",  "right" = "goto_line_end" }
+g = { "left" = "goto_line_start", "right" = "goto_line_end" }
 
 [keys.select]
-g = { "left" = "goto_line_start",  "right" = "goto_line_end" }
+g = { "left" = "goto_line_start", "right" = "goto_line_end" }
