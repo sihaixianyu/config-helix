@@ -1,4 +1,4 @@
-# C++
+# C and Cpp
 [[language]]
 name = "cpp"
 auto-format = false
@@ -7,12 +7,6 @@ indent = { tab-width = 4, unit = "    " }
 [[language]]
 name = "cmake"
 auto-format = false
-indent = { tab-width = 4, unit = "    " }
-
-# Go
-[[language]]
-name = "go"
-auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 # Python

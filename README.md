@@ -1,18 +1,25 @@
-# Helix Config of Sihaixianyu
+# Personal Config for Helix
 
->Version: 23.05
->LSP: No multiple lsp server support
+> Helix Editor: https://github.com/helix-editor/helix
 
-## Colo Relevant
-
-## Editor Relevant
+## Editing Relevant
 
 ## Language Relevant
 
 - C and C++
 
-- Go
+- Python
 
 - Rust
 
-- Python
+- Bash
+
+- CMake
+
+- Json
+
+- Toml
+
+## Apperance Relevant
+
+- Fleet Transparent Theme
