@@ -34,16 +34,11 @@ args = ["--stdio"]
 [language-server.pyright.config]
 reportMissingTypeStubs = false
 
-[language-server.pyright.config.python.analysis]
-typeCheckingMode = "basic"
-autoImportCompletions = true
-
 [language-server.ruff]
 command = "ruff-lsp"
-args = ["--stdio"]
 
 [language-server.ruff.config]
-settings = { args = [] }
+settings = { args = ["--ignore", "E501"] }
 
 # Bash
 [[language]]
