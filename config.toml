@@ -17,9 +17,6 @@ display-inlay-hints = true
 [editor.search]
 smart-case = true
 
-[editor.soft-wrap]
-enable = true
-
 [editor.file-picker]
 hidden = false
 
