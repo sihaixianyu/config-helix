@@ -38,15 +38,13 @@ left = [
 right = [
   "spinner",
   "separator",
-  "spacer",
   "diagnostics",
   "position",
   "position-percentage",
-  "file-encoding",
   "file-line-ending",
   "file-type",
 ]
-separator = "│"
+separator = "|"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
