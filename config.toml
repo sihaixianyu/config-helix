@@ -29,16 +29,19 @@ select = "underline"
 left = [
   "mode",
   "spacer",
+  "spacer",
   "version-control",
   "spacer",
+  "diagnostics",
   "separator",
   "file-name",
   "file-modification-indicator",
 ]
 right = [
   "spinner",
+  "spacer",
   "separator",
-  "diagnostics",
+  "register",
   "position",
   "position-percentage",
   "file-line-ending",
