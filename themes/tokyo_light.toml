@@ -1,0 +1,10 @@
+inherits = "tokyonight_day"
+
+comment = { fg = "comment", modifiers = [] }
+function = { fg = "blue", modifiers = [] }
+keyword = { fg = "purple", modifiers = [] }
+
+"keyword.control.return" = { fg = "purple", modifiers = [] }
+"variable.parameter" = { fg = "yellow", modifiers = [] }
+"markup.italic" = { modifiers = [] }
+"ui.text.inactive" = { fg = "comment", modifiers = [] }
