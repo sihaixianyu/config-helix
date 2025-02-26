@@ -1,13 +1,21 @@
 # Theme
 theme = "fleet_transparent"
 
+# Keys
+[keys.normal]
+g = { "left" = "goto_line_start", "right" = "goto_line_end" }
+
+[keys.select]
+g = { "left" = "goto_line_start", "right" = "goto_line_end" }
+
 # Editor
 [editor]
-line-number = "relative"
 cursorline = true
 true-color = true
 color-modes = true
+line-number = "relative"
 bufferline = "multiple"
+end-of-line-diagnostics = "hint"
 gutters = ["line-numbers", "diff", "diagnostics", "spacer"]
 
 [editor.lsp]
@@ -27,6 +35,9 @@ hidden = false
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
 
 [editor.statusline]
 left = [
@@ -54,10 +65,3 @@ separator = "|"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
-
-# Keymap
-[keys.normal]
-g = { "left" = "goto_line_start", "right" = "goto_line_end" }
-
-[keys.select]
-g = { "left" = "goto_line_start", "right" = "goto_line_end" }
