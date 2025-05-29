@@ -37,7 +37,7 @@ normal = "block"
 select = "underline"
 
 [editor.inline-diagnostics]
-cursor-line = "warning"
+cursor-line = "hint"
 
 [editor.statusline]
 left = [
