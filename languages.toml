@@ -1,21 +1,4 @@
-# Python
-[[language]]
-name = "python"
-roots = ["pyproject.toml"]
-auto-format = false
-indent = { tab-width = 4, unit = "    " }
-language-servers = ["pyright", "ruff"]
-
-[language-server.pyright]
-command = "pyright-langserver"
-args = ["--stdio"]
-config = []
-
-[language-server.ruff]
-command = "ruff"
-args = ["server", "--preview"]
-
-# C and C++
+# C++
 [[language]]
 name = "cpp"
 auto-format = false
@@ -34,6 +17,29 @@ indent = { tab-width = 4, unit = "    " }
 
 [language-server.rust-analyzer.config]
 inlayHints.lifetimeElisionHints.enable = false
+
+# Go
+[[language]]
+name = "go"
+auto-format = true
+indent = { tab-width = 4, unit = "    " }
+
+# Python
+[[language]]
+name = "python"
+roots = ["pyproject.toml"]
+auto-format = false
+indent = { tab-width = 4, unit = "    " }
+language-servers = ["pyright", "ruff"]
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+config = []
+
+[language-server.ruff]
+command = "ruff"
+args = ["server", "--preview"]
 
 # Bash
 [[language]]
