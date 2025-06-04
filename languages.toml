@@ -59,3 +59,8 @@ name = "toml"
 auto-format = true
 indent = { tab-width = 4, unit = "    " }
 formatter = { command = "taplo", args = ["fmt", "-"] }
+
+# Proto
+[[language]]
+name = "protobuf"
+indent = { tab-width = 4, unit = "    " }
