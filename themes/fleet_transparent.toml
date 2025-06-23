@@ -3,6 +3,3 @@ inherits = "fleet_dark"
 "ui.background" = {}
 
 "ui.statusline" = { fg = "fg2", bg = "bg0" }
-"ui.statusline.normal" = { bg = "blue", fg = "bg0", modifiers = ["bold"] }
-"ui.statusline.insert" = { bg = "green", fg = "bg0", modifiers = ["bold"] }
-"ui.statusline.select" = { bg = "magenta", fg = "bg0", modifiers = ["bold"] }
