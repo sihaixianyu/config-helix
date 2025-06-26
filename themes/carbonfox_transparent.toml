@@ -1,8 +1,0 @@
-inherits = "carbonfox"
-
-"ui.background" = {}
-
-"ui.virtual.inlay-hint" = { fg = "Gray 70" }
-
-[paletee]
-"Gray 70" = "#5d5d5d"
