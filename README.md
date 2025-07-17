@@ -4,21 +4,31 @@
 
 ## Editing Relevant
 
+- Add mapping from 'h' to '<-'
+
+- Add mapping from 'l' to '->'. 
+
 ## Language Relevant
 
-- C and C++
-
-- Python
+- C++
 
 - Rust
 
-- Bash
+- Go
 
-- CMake
+- Java
+
+- Python
+
+- Bash
 
 - Json
 
 - Toml
+
+- CMake
+
+- Starlark
 
 ## Apperance Relevant
 

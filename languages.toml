@@ -4,11 +4,6 @@ name = "cpp"
 auto-format = false
 indent = { tab-width = 4, unit = "    " }
 
-[[language]]
-name = "cmake"
-auto-format = false
-indent = { tab-width = 4, unit = "    " }
-
 # Rust
 [[language]]
 name = "rust"
@@ -66,7 +61,14 @@ auto-format = true
 indent = { tab-width = 4, unit = "    " }
 formatter = { command = "taplo", args = ["fmt", "-"] }
 
-# Proto
+# CMake
 [[language]]
-name = "protobuf"
+name = "cmake"
+auto-format = true
+indent = { tab-width = 4, unit = "    " }
+
+# Starlark
+[[language]]
+name = "starlark"
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
