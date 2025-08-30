@@ -1,7 +1,7 @@
 # C++
 [[language]]
 name = "cpp"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 # Rust
@@ -9,9 +9,6 @@ indent = { tab-width = 4, unit = "    " }
 name = "rust"
 auto-format = true
 indent = { tab-width = 4, unit = "    " }
-
-[language-server.rust-analyzer.config]
-inlayHints.lifetimeElisionHints.enable = false
 
 # Go
 [[language]]
@@ -28,8 +25,7 @@ indent = { tab-width = 4, unit = "    " }
 # Python
 [[language]]
 name = "python"
-roots = ["pyproject.toml"]
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 language-servers = ["pyright", "ruff"]
 
@@ -45,7 +41,7 @@ args = ["server", "--preview"]
 # Bash
 [[language]]
 name = "bash"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 # JSON
