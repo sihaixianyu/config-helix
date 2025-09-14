@@ -4,7 +4,6 @@ theme = "fleet_trans"
 # Keys
 [keys.normal]
 g = { "left" = "goto_line_start", "right" = "goto_line_end" }
-
 [keys.select]
 g = { "left" = "goto_line_start", "right" = "goto_line_end" }
 
