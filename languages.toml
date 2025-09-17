@@ -62,9 +62,3 @@ formatter = { command = "taplo", args = ["fmt", "-"] }
 name = "cmake"
 auto-format = true
 indent = { tab-width = 4, unit = "    " }
-
-# Starlark
-[[language]]
-name = "starlark"
-auto-format = true
-indent = { tab-width = 4, unit = "    " }
