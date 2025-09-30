@@ -1,4 +1,4 @@
-inherits = "carbonfox"
+inherits = "sidra"
 
 "ui.background" = {}
 
