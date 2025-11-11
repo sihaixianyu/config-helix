@@ -2,4 +2,4 @@ inherits = "fleet_dark"
 
 "ui.background" = {}
 
-"ui.statusline" = { fg = "fg2", bg = "bg0" }
+"ui.statusline" = { bg = "" }
