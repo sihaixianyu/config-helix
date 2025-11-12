@@ -12,8 +12,9 @@ g = { "left" = "goto_line_start", "right" = "goto_line_end" }
 cursorline = true
 true-color = true
 color-modes = true
-line-number = "relative"
 bufferline = "multiple"
+line-number = "relative"
+popup-border = "all"
 end-of-line-diagnostics = "hint"
 gutters = ["line-numbers", "diff", "diagnostics", "spacer"]
 
@@ -52,12 +53,11 @@ left = [
 ]
 right = [
   "spinner",
+  "register",
   "spacer",
   "separator",
-  "register",
   "position",
   "position-percentage",
-  "file-line-ending",
   "file-type",
 ]
 separator = "|"
