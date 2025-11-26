@@ -1,8 +1,0 @@
-inherits = "sidra"
-
-"ui.background" = {}
-
-"ui.virtual.inlay-hint" = { fg = "#646f69" }
-
-"ui.cursor" = { modifiers = ["reversed"] }
-"ui.cursor.match" = { bg = "#163764" }
