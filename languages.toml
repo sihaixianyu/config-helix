@@ -32,6 +32,18 @@ config = []
 command = "ruff"
 args = ["server", "--preview"]
 
+# Bash
+[[language]]
+name = "bash"
+auto-format = true
+indent = { tab-width = 4, unit = "    " }
+
+# CMake
+[[language]]
+name = "cmake"
+auto-format = true
+indent = { tab-width = 4, unit = "    " }
+
 # JSON
 [[language]]
 name = "json"
@@ -44,15 +56,3 @@ name = "toml"
 auto-format = true
 indent = { tab-width = 4, unit = "    " }
 formatter = { command = "taplo", args = ["fmt", "-"] }
-
-# Bash
-[[language]]
-name = "bash"
-auto-format = true
-indent = { tab-width = 4, unit = "    " }
-
-# CMake
-[[language]]
-name = "cmake"
-auto-format = true
-indent = { tab-width = 4, unit = "    " }
