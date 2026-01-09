@@ -21,16 +21,16 @@ indent = { tab-width = 4, unit = "    " }
 name = "python"
 auto-format = true
 indent = { tab-width = 4, unit = "    " }
-language-servers = ["pyright", "ruff"]
+language-servers = ["ty", "ruff"]
 
-[language-server.pyright]
-command = "pyright-langserver"
-args = ["--stdio"]
+[language-server.ty]
+command = "ty"
+args = ["server"]
 config = []
 
 [language-server.ruff]
 command = "ruff"
-args = ["server", "--preview"]
+args = ["server"]
 
 # Bash
 [[language]]
