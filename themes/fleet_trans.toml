@@ -3,3 +3,5 @@ inherits = "fleet_dark"
 "ui.background" = {}
 
 "ui.statusline" = { bg = "" }
+
+"markup.link.url" = { fg = "Pink", modifiers = ['underlined'] }
