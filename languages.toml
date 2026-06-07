@@ -4,6 +4,15 @@ name = "cpp"
 auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
+[[language]]
+name = "cmake"
+auto-format = true
+language-servers = [{ name = "neocmakelsp" }]
+
+[language-server.neocmakelsp]
+command = "neocmakelsp"
+args = ["stdio"]
+
 # Rust
 [[language]]
 name = "rust"
@@ -35,12 +44,6 @@ args = ["server"]
 # Bash
 [[language]]
 name = "bash"
-auto-format = true
-indent = { tab-width = 4, unit = "    " }
-
-# CMake
-[[language]]
-name = "cmake"
 auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
