@@ -35,7 +35,6 @@ language-servers = ["ty", "ruff"]
 [language-server.ty]
 command = "ty"
 args = ["server"]
-config = []
 
 [language-server.ruff]
 command = "ruff"
