@@ -1,0 +1,5 @@
+inherits = "fleet_dark"
+
+"ui.background" = {}
+
+"ui.statusline" = { bg = "" }
