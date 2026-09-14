@@ -6,7 +6,7 @@ theme = "fleet_transparent"
 cursorline = true
 true-color = true
 color-modes = true
-bufferline = "multiple"
+bufferline = { render-mode = "multiple" }
 line-number = "relative"
 popup-border = "all"
 end-of-line-diagnostics = "hint"
