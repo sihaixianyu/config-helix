@@ -1,0 +1,6 @@
+# Sidra palette and syntax highlighting with a transparent editor background.
+inherits = "sidra"
+
+"ui.background" = {}
+"ui.statusline" = { bg = "default" }
+"ui.statusline.inactive" = { bg = "default" }

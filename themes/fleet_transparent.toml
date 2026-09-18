@@ -1,6 +1,20 @@
+# General
 inherits = "fleet_dark"
 
+# Base
 "ui.background" = {}
 "ui.statusline" = { bg = "default" }
+"ui.window" = { fg = "#536273" }
 
-"markup.link.url" = { fg = "Pink", modifiers = ['underlined'] }
+# Gutter
+"ui.linenr" = { fg = "#7f8b99" }
+"ui.linenr.selected" = { fg = "#d7dde5", modifiers = ["bold"] }
+
+# Selection
+"ui.selection" = { bg = "#31455f" }
+"ui.selection.primary" = { bg = "#3b5b7d" }
+
+# Cursor line
+"ui.cursorline" = { bg = "#303133" }
+"ui.cursorline.primary" = { bg = "#383a3d" }
+"ui.cursorline.secondary" = { bg = "#303133" }

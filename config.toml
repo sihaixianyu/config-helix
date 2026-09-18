@@ -1,4 +1,4 @@
-# Theme
+# General
 theme = "fleet_transparent"
 
 # Editor
@@ -6,34 +6,43 @@ theme = "fleet_transparent"
 cursorline = true
 true-color = true
 color-modes = true
-bufferline = { render-mode = "multiple" }
 line-number = "relative"
-popup-border = "all"
-end-of-line-diagnostics = "hint"
+breadcrumb = { enable = true, path = "file", max-depth = 4 }
+bufferline = { render-mode = "multiple", separator = "|" }
 gutters = ["line-numbers", "diff", "diagnostics", "spacer"]
+
+search = { smart-case = true }
+soft-wrap = { enable = true }
+file-picker = { hidden = false }
+auto-reload = { focus-gained = true }
+
+end-of-line-diagnostics = "hint"
+inline-blame = { show = "cursor-line", auto-fetch = false }
+inline-diagnostics = { cursor-line = "hint" }
+completion-highlight = { highlight-type = "theme-colors" }
 
 [editor.lsp]
 display-messages = true
 display-inlay-hints = true
+signature-help-position = "below"
+color-swatches-string = "■"
 
-[editor.search]
-smart-case = true
-
-[editor.soft-wrap]
-enable = true
-
-[editor.file-picker]
-hidden = false
+[editor.persistence]
+old-files = true
+commands = true
+search = true
+clipboard = false
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
 
-[editor.inline-diagnostics]
-cursor-line = "hint"
-
 [editor.statusline]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
 left = [
   "mode",
   "spacer",
@@ -54,7 +63,3 @@ right = [
   "position-percentage",
   "file-type",
 ]
-separator = "|"
-mode.normal = "NORMAL"
-mode.insert = "INSERT"
-mode.select = "SELECT"
